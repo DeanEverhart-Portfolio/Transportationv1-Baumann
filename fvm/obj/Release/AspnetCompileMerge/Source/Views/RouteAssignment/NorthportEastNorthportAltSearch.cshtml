@@ -1,0 +1,80 @@
+﻿@model IEnumerable<fvm.Models.RouteAssignment>
+
+@{
+    ViewBag.Title = "Northport - East Northport";
+}
+
+<div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Norhport - East Northport", "NorthportEastNorthport", "RouteAssignment")</li>
+        <li>@Html.ActionLink("South Huntington ", "SouthHuntington", "RouteAssignment")</li>
+        <li>@Html.ActionLink("Route ", "Index", "RouteAssignment")</li>
+        <li>@Html.ActionLink("Report Times ", "Report", "RouteAssignment")</li>
+        <li>@Html.ActionLink("Run", "Index", "RunAssignment")</li>
+        <li>@Html.ActionLink("Clock", "Index", "Clock")</li>
+    </ul>
+</div>
+
+<h2>Northport - East Northport</h2>
+
+@using (Html.BeginForm("northporteastnorthportaltsearch", "RouteAssignment"))
+{
+    <p>
+        @Html.ActionLink("Find by", "NorthportEastNorthport", "RouteAssignment") Driver: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Search">
+    </p>
+}
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Route
+            @*@Html.DisplayNameFor(model => model.Route.RouteDesignator)*@
+        </th>
+        <th>
+            District
+        </th>
+        <th>
+            Contact
+            @*@Html.DisplayNameFor(model => model.Contact.ContactDesignator2)*@
+        </th>
+        <th>
+            Contact
+        </th>
+        <th>
+            Vehicle
+            @*@Html.DisplayNameFor(model => model.Equipment.EquipmentDesignator)*@
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Route.RouteDesignator)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Route.RouteDistrict)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contact.ContactNameFullDisplay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contact.ContactPhone1Display)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Equipment.EquipmentDesignator)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.RouteID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.RouteID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.RouteID })
+            </td>
+        </tr>
+    }
+
+</table>

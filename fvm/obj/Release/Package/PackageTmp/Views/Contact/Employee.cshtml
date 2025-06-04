@@ -1,0 +1,107 @@
+﻿@model IEnumerable<fvm.Models.Contact>
+
+@{
+    ViewBag.Title = "Employee";
+}
+<div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Employee ", "Employee", "Contact")</li>
+        <li>@Html.ActionLink("Corporate ", "Corporate", "Contact")</li>
+        <li>@Html.ActionLink("School ", "Client", "Contact")</li>
+        <li>@Html.ActionLink("Vendor ", "Vendor", "Contact")</li>
+        <li>@Html.ActionLink("All ", "Index", "Contact")</li>
+        <li>@Html.ActionLink("Inactive ", "EmployeeInactive", "Contact")</li>
+        <li>@Html.ActionLink("Emergency ", "Emergency", "Contact")</li>
+    </ul>
+</div>
+
+<h2>Contact - Employee</h2>
+
+
+@using (Html.BeginForm("employee", "Contact"))
+{
+    <p>
+        Find by name: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Search">
+    </p>
+}
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Employee
+        </th>
+        <th>
+            Phone 1
+        </th>
+        <th>
+            Phone 2
+        </th>
+        <th>
+            Wireless Carrier
+        </th>
+        <th>
+            Title
+        </th>
+        <th>
+            License
+        </th>
+        <th>
+            Employee ID
+        </th>
+        <th>
+            Hire Date
+        </th>
+        <th>
+            Pick Date
+        </th>
+        <th>
+            Seniority Date
+        </th>
+
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.ContactNameFullDisplay)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ContactPhone1Display)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ContactPhone2Display)
+    </td>
+    <th>
+        @Html.DisplayFor(modelItem => item.ContactWirelessCarrier)
+    </th>
+    <th>
+        @Html.DisplayFor(modelItem => item.ContactTitle)
+    </th>
+    <th>
+        @Html.DisplayFor(modelItem => item.ContactLicense)
+    </th>
+    <th>
+        @Html.DisplayFor(modelItem => item.ContactEmployeeID)
+    </th>
+    <th>
+        @Html.DisplayFor(modelItem => item.ContactDateHire)
+    </th>
+    <th>
+        @Html.DisplayFor(modelItem => item.ContactDatePick)
+    </th>
+    <th>
+        @Html.DisplayFor(modelItem => item.ContactDateSeniority)
+    </th>
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.ContactID }) |
+        @Html.ActionLink("Details", "Details", new { id = item.ContactID }) |
+        @Html.ActionLink("Delete", "Delete", new { id = item.ContactID })
+    </td>
+</tr>
+}
+
+</table>

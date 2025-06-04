@@ -1,0 +1,101 @@
+﻿@model fvm.Areas.Education.Models.CDL
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>CDL</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.CDLID)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CDLCategory, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CDLCategory)
+                @Html.ValidationMessageFor(model => model.CDLCategory)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CDLCategorySub, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CDLCategorySub)
+                @Html.ValidationMessageFor(model => model.CDLCategorySub)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CDLTag, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CDLTag)
+                @Html.ValidationMessageFor(model => model.CDLTag)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CDLText1, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CDLText1)
+                @Html.ValidationMessageFor(model => model.CDLText1)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CDLText2, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CDLText2)
+                @Html.ValidationMessageFor(model => model.CDLText2)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CDLChapter, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CDLChapter)
+                @Html.ValidationMessageFor(model => model.CDLChapter)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CDLPage, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CDLPage)
+                @Html.ValidationMessageFor(model => model.CDLPage)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CDLSelect, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CDLSelect)
+                @Html.ValidationMessageFor(model => model.CDLSelect)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CDLInactive, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CDLInactive)
+                @Html.ValidationMessageFor(model => model.CDLInactive)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

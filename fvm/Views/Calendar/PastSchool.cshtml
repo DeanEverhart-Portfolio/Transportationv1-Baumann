@@ -1,0 +1,96 @@
+﻿@model IEnumerable<fvm.Models.Calendar>
+
+@{
+    ViewBag.Title = "Past Calendar - School";
+}
+<div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Present", "Index", "Calendar")</li>
+        <li>@Html.ActionLink("Past", "Past", "Calendar")</li>
+        <li>@Html.ActionLink("School", "PastSchool", "Calendar")</li>
+        <li>@Html.ActionLink("Employee", "PastEmployee", "Calendar")</li>
+    </ul>
+</div>
+
+<h2>Past Calendar - School</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+@using (Html.BeginForm("index", "Calendar"))
+{
+    <p>
+        Find by name: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Search">
+    </p>
+}
+@*__________________________________________________*@
+<table class="table">
+    <tr>
+        <th>
+            @*@Html.ActionLink("Date", "Index", new { sortOrder = ViewBag.calendardate, currentFilter = ViewBag.CurrentFilter })*@
+            @Html.DisplayNameFor(model => model.CalendarDateStart)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CalendarDateDayOfWeek)
+        </th>
+        <th>
+            @Html.ActionLink("School Name", "Index", new { sortOrder = ViewBag.contactdesignator, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CalendarDateItem)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CalendarDateCategoryTimeDisplay)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CalendarDateAdditionalInformation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CalendarDateDayOfWeekReturn)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CalendarDateReturn)
+        </th>
+        @*__________________________________________________*@
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CalendarDateStart)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CalendarDateDayOfWeek)
+            </td>
+            <td>
+                @*<a href=@Html.DisplayFor(modelItem => item.Contact.ContactCalendar)>@Html.DisplayFor(modelItem => item.Contact.ContactDesignator)</a>*@
+
+                @Html.DisplayFor(modelItem => item.Contact.ContactNameFullDisplay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CalendarDateItem)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CalendarDateCategoryTimeDisplay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CalendarDateAdditionalInformation)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CalendarDateDayOfWeekReturn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CalendarDateReturn)
+            </td>
+            @*__________________________________________________*@
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.CalendarID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.CalendarID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.CalendarID })
+            </td>
+        </tr>
+    }
+</table>

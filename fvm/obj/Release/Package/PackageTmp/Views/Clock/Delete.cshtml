@@ -1,0 +1,64 @@
+﻿@model fvm.Models.Clock
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Clock</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Contact.ContactDesignator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Contact.ContactDesignator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Equipment.EquipmentDesignator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Equipment.EquipmentDesignator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Route.RouteDesignator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Route.RouteDesignator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Run)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Run)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ClockTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClockTime)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

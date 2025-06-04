@@ -1,0 +1,90 @@
+﻿@model fvm.Models.Equipment
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Equipment</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.EquipmentDesignator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EquipmentDesignator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EquipmentType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EquipmentType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EquipmentPassengersAdult)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EquipmentPassengersAdult)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EquipmentPassengersChild)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EquipmentPassengersChild)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EquipmentVideo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EquipmentVideo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EquipmentBuiltIns)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EquipmentBuiltIns)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EquipmentWheelChair)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EquipmentWheelChair)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EquipmentSelect)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EquipmentSelect)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EquipmentInactive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EquipmentInactive)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.EquipmentID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

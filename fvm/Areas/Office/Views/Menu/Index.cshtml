@@ -1,0 +1,17 @@
+﻿@model IEnumerable<fvm.Models.Menu>
+
+@*@{
+        ViewBag.Title = "Menu";
+    }
+
+    <h2>Menu</h2>*@
+
+<div>
+    <dl class="dl-horizontal">
+
+        <li><a href="https://fvm.azurewebsites.net/Document">Document</a></li>
+
+        <li>@Html.ActionLink("Supply Order", "Order", "Supply")</li>
+
+    </dl>
+</div>

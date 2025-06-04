@@ -1,0 +1,71 @@
+﻿@model IEnumerable<fvm.Areas.Office.Models.Supply>
+
+@{
+    ViewBag.Title = "Current Supply Order";
+}
+<h2>Supply Order - In Progress</h2>
+
+<p>
+    @Html.ActionLink("Supply Menu", "Selection")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Order Quantity
+            @*@Html.DisplayNameFor(model => model.SupplyOrderQuantity)*@
+        </th>
+        <th>
+            Item
+        </th>
+        <th>
+            Categories
+            @Html.DisplayNameFor(model => model.SupplyCategoriesDisplay)
+        </th>
+        <th>
+            Description
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplyCount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplyPack)
+        </th>
+        <th>
+            IDs
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.SupplyOrderQuantity)
+    </td>
+    <td>
+        <a href=@Html.DisplayFor(modelItem => item.SupplyURLAccess)>@Html.DisplayFor(modelItem => item.SupplyDesignator)</a>
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.SupplyCategoriesDisplay)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.SupplyDescriptionDisplay)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.SupplyCount)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.SupplyPack)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.SupplyIDsDisplay)
+    </td>
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.SupplyID }) |
+        @Html.ActionLink("Details", "Details", new { id = item.SupplyID }) |
+        @Html.ActionLink("Delete", "Delete", new { id = item.SupplyID })
+    </td>
+</tr>
+    }
+
+</table>

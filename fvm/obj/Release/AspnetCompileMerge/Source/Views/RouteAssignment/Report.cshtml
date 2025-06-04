@@ -1,0 +1,99 @@
+﻿@model IEnumerable<fvm.Models.RouteAssignment>
+
+@{
+    ViewBag.Title = "Report Times";
+}
+<div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Norhport - East Northport", "NorthportEastNorthport", "RouteAssignment")</li>
+        <li>@Html.ActionLink("South Huntington ", "SouthHuntington", "RouteAssignment")</li>
+        <li>@Html.ActionLink("Route ", "Index", "RouteAssignment")</li>
+        <li>@Html.ActionLink("Report Times ", "Report", "RouteAssignment")</li>
+        <li>@Html.ActionLink("Run", "Index", "RunAssignment")</li>
+        <li>@Html.ActionLink("Clock", "Index", "Clock")</li>
+    </ul>
+</div>
+
+<h2>Report Times</h2>
+
+@using (Html.BeginForm("index", "RouteAssignment"))
+{
+    <p>
+        Find by name: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Search">
+    </p>
+}
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.ActionLink("AM", "Report", new { sortOrder = ViewBag.routereportam, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        <th>
+            @Html.ActionLink("PM", "Report", new { sortOrder = ViewBag.routereportpm, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        <th>
+            Route
+            @*@Html.DisplayNameFor(model => model.Route.RouteDesignator)*@
+        </th>
+        <th>
+            Contact
+            @*@Html.DisplayNameFor(model => model.Contact.ContactDesignator2)*@
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.Contact.ContactFirstNameLastDisplay)
+        </th>*@
+        <th>
+            Vehicle
+            @*@Html.DisplayNameFor(model => model.Equipment.EquipmentDesignator)*@
+        </th>
+
+        @*<th>
+            @Html.DisplayNameFor(model => model.Run.RunDesignator)
+          </th>
+          <th>
+            @Html.DisplayNameFor(model => model.Run.RunDesignatorDisplay)
+          </th>*@
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Route.RouteTimeReportAM)
+            </td>    
+            <td>
+                @Html.DisplayFor(modelItem => item.Route.RouteTimeReportPM)
+            </td>        
+            <td>
+                @Html.DisplayFor(modelItem => item.Route.RouteDesignator)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contact.ContactDesignator2)
+            </td>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.Contact.ContactFirstNameLastDisplay)
+            </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.Equipment.EquipmentDesignator)
+            </td>
+
+            @*<td>
+                    @Html.DisplayFor(modelItem => item.Run.RunDesignator)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Run.RunDesignatorDisplay)
+                </td>*@
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.RouteAssignmentID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.RouteAssignmentID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.RouteAssignmentID })
+            </td>
+        </tr>
+    }
+
+</table>

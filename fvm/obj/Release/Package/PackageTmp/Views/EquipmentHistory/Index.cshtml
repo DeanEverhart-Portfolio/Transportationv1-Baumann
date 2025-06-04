@@ -1,0 +1,75 @@
+﻿@model IEnumerable<fvm.Models.EquipmentHistory>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Contact.ContactDesignator)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Equipment.EquipmentDesignator)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EquipmentHistoryDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EquipmentHistoryCategory)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EquipmentHistoryCategorySub)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EquipmentHistoryNote)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EquipmentHistorySelect)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EquipmentHistoryInactive)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Contact.ContactDesignator)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Equipment.EquipmentDesignator)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EquipmentHistoryDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EquipmentHistoryCategory)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EquipmentHistoryCategorySub)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EquipmentHistoryNote)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EquipmentHistorySelect)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EquipmentHistoryInactive)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.EquipmentHistoryID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.EquipmentHistoryID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.EquipmentHistoryID })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,306 @@
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\appsettings.Development.json
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\appsettings.json
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\DeanEverhart.staticwebassets.runtime.json
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\DeanEverhart.exe
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\DeanEverhart.deps.json
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\DeanEverhart.runtimeconfig.json
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\DeanEverhart.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\DeanEverhart.pdb
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Humanizer.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Microsoft.Data.SqlClient.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Microsoft.Extensions.Identity.Stores.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Microsoft.Identity.Client.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\System.Configuration.ConfigurationManager.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\System.Drawing.Common.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\System.Runtime.Caching.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\System.Security.Permissions.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\System.Windows.Extensions.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\DeanEverhart.csproj.AssemblyReference.cache
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\DeanEverhart.GeneratedMSBuildEditorConfig.editorconfig
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\DeanEverhart.AssemblyInfoInputs.cache
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\DeanEverhart.AssemblyInfo.cs
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\DeanEverhart.csproj.CoreCompileInputs.cache
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\DeanEverhart.MvcApplicationPartsAssemblyInfo.cs
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\DeanEverhart.MvcApplicationPartsAssemblyInfo.cache
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\DeanEverhart.RazorAssemblyInfo.cache
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\DeanEverhart.RazorAssemblyInfo.cs
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\staticwebassets\msbuild.DeanEverhart.Microsoft.AspNetCore.StaticWebAssets.props
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\staticwebassets\msbuild.build.DeanEverhart.props
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\staticwebassets\msbuild.buildMultiTargeting.DeanEverhart.props
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\staticwebassets\msbuild.buildTransitive.DeanEverhart.props
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\staticwebassets.pack.json
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\staticwebassets.build.json
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\staticwebassets.development.json
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\scopedcss\bundle\DeanEverhart.styles.css
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\scopedcss\projectbundle\DeanEverhart.bundle.scp.css
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\DeanEverhart.csproj.CopyComplete
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\DeanEverhart.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\refint\DeanEverhart.dll
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\DeanEverhart.pdb
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\DeanEverhart.genruntimeconfig.cache
+D:\GSDB\_data\_previous\Lattitude\_data\_Tech\fvm\toe holds\220214-1030 pre-Hozio\DeanEverhart\obj\Release\net6.0\ref\DeanEverhart.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\appsettings.Development.json
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\appsettings.json
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\DeanEverhart.staticwebassets.runtime.json
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\DeanEverhart.exe
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\DeanEverhart.deps.json
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\DeanEverhart.runtimeconfig.json
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\DeanEverhart.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\DeanEverhart.pdb
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Humanizer.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Identity.Client.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\System.Drawing.Common.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\System.Runtime.Caching.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\System.Security.Permissions.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\System.Windows.Extensions.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.csproj.AssemblyReference.cache
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.AssemblyInfoInputs.cache
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.AssemblyInfo.cs
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.csproj.CoreCompileInputs.cache
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.RazorAssemblyInfo.cache
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.RazorAssemblyInfo.cs
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\staticwebassets\msbuild.DeanEverhart.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\staticwebassets\msbuild.build.DeanEverhart.props
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\staticwebassets\msbuild.buildMultiTargeting.DeanEverhart.props
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\staticwebassets\msbuild.buildTransitive.DeanEverhart.props
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\staticwebassets.pack.json
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\staticwebassets.build.json
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\staticwebassets.development.json
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\scopedcss\bundle\DeanEverhart.styles.css
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\scopedcss\projectbundle\DeanEverhart.bundle.scp.css
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.csproj.CopyComplete
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\refint\DeanEverhart.dll
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.pdb
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.genruntimeconfig.cache
+C:\Users\User1\Desktop\_Tech\Projects\fvm\fvm\DeanEverhart\obj\Release\net6.0\ref\DeanEverhart.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\appsettings.Development.json
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\appsettings.json
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\DeanEverhart.staticwebassets.runtime.json
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\DeanEverhart.exe
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\DeanEverhart.deps.json
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\DeanEverhart.runtimeconfig.json
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\DeanEverhart.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\DeanEverhart.pdb
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Humanizer.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Identity.Client.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\System.Drawing.Common.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\System.Runtime.Caching.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\System.Security.Permissions.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\System.Windows.Extensions.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.csproj.AssemblyReference.cache
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.AssemblyInfoInputs.cache
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.AssemblyInfo.cs
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.csproj.CoreCompileInputs.cache
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.RazorAssemblyInfo.cache
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.RazorAssemblyInfo.cs
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.sourcelink.json
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\staticwebassets.build.json
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\staticwebassets.development.json
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\staticwebassets\msbuild.DeanEverhart.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\staticwebassets\msbuild.build.DeanEverhart.props
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\staticwebassets\msbuild.buildMultiTargeting.DeanEverhart.props
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\staticwebassets\msbuild.buildTransitive.DeanEverhart.props
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\staticwebassets.pack.json
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\scopedcss\bundle\DeanEverhart.styles.css
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\scopedcss\projectbundle\DeanEverhart.bundle.scp.css
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEver.71707260.Up2Date
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\refint\DeanEverhart.dll
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.pdb
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.genruntimeconfig.cache
+C:\Users\3v3rh\Documents\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\ref\DeanEverhart.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\appsettings.Development.json
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\appsettings.json
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\DeanEverhart.staticwebassets.runtime.json
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\DeanEverhart.exe
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\DeanEverhart.deps.json
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\DeanEverhart.runtimeconfig.json
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\DeanEverhart.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\DeanEverhart.pdb
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Humanizer.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Identity.Client.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\System.Drawing.Common.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\System.Runtime.Caching.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\System.Security.Permissions.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\System.Windows.Extensions.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\bin\Release\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.csproj.AssemblyReference.cache
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.AssemblyInfoInputs.cache
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.AssemblyInfo.cs
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.csproj.CoreCompileInputs.cache
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.RazorAssemblyInfo.cache
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.RazorAssemblyInfo.cs
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.sourcelink.json
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\staticwebassets.build.json
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\staticwebassets.development.json
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\staticwebassets\msbuild.DeanEverhart.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\staticwebassets\msbuild.build.DeanEverhart.props
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\staticwebassets\msbuild.buildMultiTargeting.DeanEverhart.props
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\staticwebassets\msbuild.buildTransitive.DeanEverhart.props
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\staticwebassets.pack.json
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\scopedcss\bundle\DeanEverhart.styles.css
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\scopedcss\projectbundle\DeanEverhart.bundle.scp.css
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEver.71707260.Up2Date
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\refint\DeanEverhart.dll
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.pdb
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\DeanEverhart.genruntimeconfig.cache
+C:\Users\3v3rh\_7560\Transportation\fvm\fvm\DeanEverhart\obj\Release\net6.0\ref\DeanEverhart.dll

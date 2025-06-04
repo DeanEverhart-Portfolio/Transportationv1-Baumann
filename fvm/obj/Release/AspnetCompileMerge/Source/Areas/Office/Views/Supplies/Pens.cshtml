@@ -1,0 +1,64 @@
+﻿@model IEnumerable<fvm.Areas.Office.Models.Supply>
+
+@{
+    ViewBag.Title = "Pens";
+}
+
+<h2>Pens</h2>
+
+<p>
+    @Html.ActionLink("Menu", "Supplies")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Item
+            @*@Html.DisplayNameFor(model => model.SupplyDesignator)*@
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplyCategoriesDisplay)
+        </th>
+        <th>
+            Description
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplyCount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplyPack)
+        </th>
+        <th>
+            IDs
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        <a href=@Html.DisplayFor(modelItem => item.SupplyURLAccess)>@Html.DisplayFor(modelItem => item.SupplyDesignator)</a>
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.SupplyCategoriesDisplay)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.SupplyDescriptionDisplay)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.SupplyCount)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.SupplyPack)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.SupplyIDsDisplay)
+    </td>
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.SupplyID }) |
+        @Html.ActionLink("Details", "Details", new { id = item.SupplyID }) |
+        @Html.ActionLink("Delete", "Delete", new { id = item.SupplyID })
+    </td>
+</tr>
+}
+
+</table>

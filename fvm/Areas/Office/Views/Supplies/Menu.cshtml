@@ -1,0 +1,80 @@
+﻿@model IEnumerable<fvm.Areas.Office.Models.Supply>
+
+@{
+    ViewBag.Title = "Office Supplies Menu";
+}
+
+<h2>Office Supplies - Menu</h2>
+
+@using (Html.BeginForm("Menu", "Supplies"))
+{
+    <p>
+        Find by name: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Search">
+    </p>
+}
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<p>
+    _____________________________________
+</p>
+
+<div>
+    <dl class="dl-horizontal">
+        <dt>
+
+        </dt>
+        <dd><li>@Html.ActionLink("Fasteners", "Fasteners", "Supplies")</li></dd>
+        <dt>
+
+        </dt>
+        <dd><li>@Html.ActionLink("Packaging", "Packaging", "Supplies")</li></dd>
+        <dt>
+
+        </dt>
+        <dd><li>@Html.ActionLink("Pens", "Pens", "Supplies")</li></dd>
+        <dt>
+
+        </dt>
+        <dd><li>@Html.ActionLink("Stationary", "Stationary", "Supplies")</li></dd>
+        <dt>
+
+            @*
+
+            </dt>
+            <dd><li>@Html.ActionLink("Emergency", "Emergency", "Document")</li></dd>
+            <dt>
+
+            </dt>
+            <dd><li>@Html.ActionLink("Forms", "Forms", "Document")</li></dd>
+            <dt>
+
+            </dt>
+            <dd><li>@Html.ActionLink("Human Resources", "HumanResources", "Document")</li></dd>
+            <dt>
+
+            </dt>
+            <dd><li>@Html.ActionLink("Letterhead", "Letterhead", "Document")</li></dd>
+            <dt>
+
+            </dt>
+            <dd><li>@Html.ActionLink("Medical", "Medical", "Document")</li></dd>
+            <dt>
+
+            </dt>
+            <dd><li>@Html.ActionLink("Payroll", "Payroll", "Document")</li></dd>
+            <dt>
+
+            </dt>
+            <dd><li>@Html.ActionLink("Signs", "Signs", "Document")</li></dd>
+            <dt>
+
+            </dt>
+            <dd><li>@Html.ActionLink("Template", "Template", "Document")</li></dd>
+
+            </dt>
+            <dd><li>@Html.ActionLink("All", "All", "Document")</li></dd>
+            <dt>*@
+    </dl>
+</div>

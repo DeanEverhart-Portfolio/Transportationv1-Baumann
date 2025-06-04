@@ -1,0 +1,135 @@
+﻿@model IEnumerable<fvm.Areas.Office.Models.Supply>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplyDesignator)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplyCategory)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplyCategorySub)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplyItemNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplyModelNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplySerialNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplyVariety)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplyColor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplySize)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplyDimensions)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplyDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplyCount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplyPack)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplyOrderQuantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplyUnitPriceString)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplyTag)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplyNote)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SupplyURLAccess)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.SupplyDesignator)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SupplyCategory)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SupplyCategorySub)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SupplyItemNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SupplyModelNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SupplySerialNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SupplyVariety)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SupplyColor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SupplySize)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SupplyDimensions)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SupplyDescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SupplyCount)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SupplyPack)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SupplyOrderQuantity)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SupplyUnitPriceString)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SupplyTag)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SupplyNote)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SupplyURLAccess)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.SupplyID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.SupplyID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.SupplyID })
+        </td>
+    </tr>
+}
+
+</table>

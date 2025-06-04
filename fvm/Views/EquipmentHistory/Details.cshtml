@@ -1,0 +1,82 @@
+﻿@model fvm.Models.EquipmentHistory
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>EquipmentHistory</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Contact.ContactDesignator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Contact.ContactDesignator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Equipment.EquipmentDesignator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Equipment.EquipmentDesignator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EquipmentHistoryDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EquipmentHistoryDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EquipmentHistoryCategory)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EquipmentHistoryCategory)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EquipmentHistoryCategorySub)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EquipmentHistoryCategorySub)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EquipmentHistoryNote)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EquipmentHistoryNote)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EquipmentHistorySelect)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EquipmentHistorySelect)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EquipmentHistoryInactive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EquipmentHistoryInactive)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.EquipmentHistoryID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,90 @@
+﻿@model fvm.Areas.Office.Models.Supply
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Supply</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SupplyItem)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SupplyItem)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SupplyModelNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SupplyModelNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SupplySerialNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SupplySerialNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SupplyVariety)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SupplyVariety)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SupplyColor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SupplyColor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SupplyDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SupplyDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SupplySelect)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SupplySelect)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SupplyCount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SupplyCount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SupplyPack)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SupplyPack)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.SupplyID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

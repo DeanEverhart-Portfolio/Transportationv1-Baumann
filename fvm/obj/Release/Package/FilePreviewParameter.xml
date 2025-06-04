@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="fvm2" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\_Data\\MVC\\_Version2\\_fvm\\fvm\\fvm\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\_Data\\MVC\\_Version2\\_fvm\\fvm\\fvm\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-fvm-20190827114625.mdf;Initial Catalog=aspnet-fvm-20190827114625;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\_Data\\MVC\\_Version2\\_fvm\\fvm\\fvm\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="fvmcontext-Web.config Connection String" description="" value="Data Source=(LocalDb)\v11.0;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\fvm.mdf" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\_Data\\MVC\\_Version2\\_fvm\\fvm\\fvm\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='fvmcontext']/@connectionString" />
+  </parameter>
+</parameters>

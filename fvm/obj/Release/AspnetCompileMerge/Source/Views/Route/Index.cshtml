@@ -1,0 +1,111 @@
+﻿@model IEnumerable<fvm.Models.Route>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Norhport - East Northport", "NorthportEastNorthport", "Route")</li>
+        <li>@Html.ActionLink("South Huntington ", "SouthHuntington", "Route")</li>
+
+        @*<li>@Html.ActionLink("Corporate ", "Corporate", "Contact")</li>
+            <li>@Html.ActionLink("Vendor ", "Vendor", "Contact")</li>
+            <li>@Html.ActionLink("All ", "Index", "Contact")</li>*@
+    </ul>
+</div>
+
+<h2>Index</h2>
+
+@using (Html.BeginForm("index", "Route"))
+{
+    <p>
+        Find by name: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Search">
+    </p>
+}
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.RouteDesignator)
+        </th>
+        <th>
+            @Html.ActionLink("AM", "Index", new { sortOrder = ViewBag.routereportam, currentFilter = ViewBag.CurrentFilter })
+        <th>
+            Arrive AM
+        </th>
+        <th>
+            @Html.ActionLink("PM", "Index", new { sortOrder = ViewBag.routereportpm, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        <th>
+            Arrive PM
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RouteHardware)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RouteSupervision)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RouteMonitors)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RouteSelect)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RouteInactive)
+        </th>
+        <th>
+            District
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.RouteDesignator)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.RouteTimeReportAM)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.RouteTimeArriveAM)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.RouteTimeReportPM)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.RouteTimeArrivePM)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.RouteHardware)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.RouteSupervision)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.RouteMonitors)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.RouteSelect)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.RouteInactive)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.RouteDistrict)
+    </td>
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.RouteID }) |
+        @Html.ActionLink("Details", "Details", new { id = item.RouteID }) |
+        @Html.ActionLink("Delete", "Delete", new { id = item.RouteID })
+    </td>
+</tr>
+}
+
+</table>

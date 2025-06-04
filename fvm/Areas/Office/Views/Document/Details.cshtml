@@ -1,0 +1,138 @@
+﻿@model fvm.Areas.Office.Models.Document
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Document</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DocumentDesignator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DocumentDesignator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DocumentDesignatorCategory)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DocumentDesignatorCategory)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DocumentDesignatorIdentifier)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DocumentDesignatorIdentifier)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DocumentForm)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DocumentForm)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DocumentTemplate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DocumentTemplate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DocumentMedical)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DocumentMedical)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DocumentEmergency)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DocumentEmergency)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DocumentAccessRead)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DocumentAccessRead)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DocumentAccessWrite)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DocumentAccessWrite)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DocumentCategory)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DocumentCategory)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DocumentCategorySub)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DocumentCategorySub)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DocumentVersion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DocumentVersion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DocumentTag)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DocumentTag)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DocumentCrossCategory)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DocumentCrossCategory)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DocumentWrite)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DocumentWrite)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.DocumentID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

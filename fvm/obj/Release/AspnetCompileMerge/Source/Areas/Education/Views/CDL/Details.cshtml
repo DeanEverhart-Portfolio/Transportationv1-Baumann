@@ -1,0 +1,90 @@
+﻿@model fvm.Areas.Education.Models.CDL
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>CDL</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CDLCategory)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CDLCategory)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CDLCategorySub)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CDLCategorySub)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CDLTag)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CDLTag)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CDLText1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CDLText1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CDLText2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CDLText2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CDLChapter)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CDLChapter)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CDLPage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CDLPage)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CDLSelect)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CDLSelect)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CDLInactive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CDLInactive)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CDLID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

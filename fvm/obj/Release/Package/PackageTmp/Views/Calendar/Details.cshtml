@@ -1,0 +1,58 @@
+﻿@model fvm.Models.Calendar
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Calendar</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Contact.ContactDesignator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Contact.ContactDesignator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CalendarDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CalendarDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CalendarDateDayOfWeek)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CalendarDateDayOfWeek)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CalendarDateHoliday)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CalendarDateHoliday)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CalendarDateSchoolEvent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CalendarDateSchoolEvent)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CalendarID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

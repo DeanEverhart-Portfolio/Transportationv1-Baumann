@@ -1,0 +1,67 @@
+﻿@model fvm.Areas.Office.Models.Sign
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Sign</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        <div class="form-group">
+            @Html.LabelFor(model => model.SignDesignator, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SignDesignator)
+                @Html.ValidationMessageFor(model => model.SignDesignator)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SignText, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SignText)
+                @Html.ValidationMessageFor(model => model.SignText)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SignCategory, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SignCategory)
+                @Html.ValidationMessageFor(model => model.SignCategory)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SignCategorySub, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SignCategorySub)
+                @Html.ValidationMessageFor(model => model.SignCategorySub)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SignURLAccess, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SignURLAccess)
+                @Html.ValidationMessageFor(model => model.SignURLAccess)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

@@ -1,0 +1,166 @@
+﻿@model fvm.Areas.Office.Models.Supply
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    <h4>Supply</h4>
+    <hr />
+    @Html.ValidationSummary(true)
+    @Html.HiddenFor(model => model.SupplyID)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.SupplyOrderQuantity, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.SupplyOrderQuantity)
+            @Html.ValidationMessageFor(model => model.SupplyOrderQuantity)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.SupplyItemNumber, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.SupplyItemNumber)
+            @Html.ValidationMessageFor(model => model.SupplyItemNumber)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.SupplyModelNumber, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.SupplyModelNumber)
+            @Html.ValidationMessageFor(model => model.SupplyModelNumber)
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.SupplyCount, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.SupplyCount)
+            @Html.ValidationMessageFor(model => model.SupplyCount)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.SupplyPack, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.SupplyPack)
+            @Html.ValidationMessageFor(model => model.SupplyPack)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.SupplyUnitPriceString, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.SupplyUnitPriceString)
+            @Html.ValidationMessageFor(model => model.SupplyUnitPriceString)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.SupplyDesignator, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.SupplyDesignator)
+            @Html.ValidationMessageFor(model => model.SupplyDesignator)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.SupplyCategory, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.SupplyCategory)
+            @Html.ValidationMessageFor(model => model.SupplyCategory)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.SupplyCategorySub, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.SupplyCategorySub)
+            @Html.ValidationMessageFor(model => model.SupplyCategorySub)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.SupplySize, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.SupplySize)
+            @Html.ValidationMessageFor(model => model.SupplySize)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.SupplyColor, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.SupplyColor)
+            @Html.ValidationMessageFor(model => model.SupplyColor)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.SupplyDimensions, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.SupplyDimensions)
+            @Html.ValidationMessageFor(model => model.SupplyDimensions)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.SupplyVariety, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.SupplyVariety)
+            @Html.ValidationMessageFor(model => model.SupplyVariety)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.SupplyDescription, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.SupplyDescription)
+            @Html.ValidationMessageFor(model => model.SupplyDescription)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.SupplyTag, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.SupplyTag)
+            @Html.ValidationMessageFor(model => model.SupplyTag)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.SupplyNote, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.SupplyNote)
+            @Html.ValidationMessageFor(model => model.SupplyNote)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.SupplyURLAccess, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.SupplyURLAccess)
+            @Html.ValidationMessageFor(model => model.SupplyURLAccess)
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Save" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Order")
+</div>

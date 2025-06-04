@@ -1,0 +1,89 @@
+﻿@model fvm.Models.Route
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Route</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.RouteDesignator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RouteDesignator)
+        </dd>
+        <dt> </dt>
+        <dd>
+            <table class="table">
+                <tr>
+                    @*<th> Route </th>*@
+                    <th> Run </th>
+                </tr>
+                @foreach (var item in Model.RouteAssignments)
+                {
+                    <tr>
+                        @Html.DisplayFor(modelItem => item.Run.RunDesignator)
+                    </tr>
+
+            @*<td>
+        <a href=@Html.DisplayFor(modelItem => item.RunDesignator)>@Html.DisplayFor(modelItem => item.RouteDesignator)</a>
+    </td>
+    <td>
+        <a href=@Html.DisplayFor(modelItem => item.Run.RunDesignator)>@Html.DisplayFor(modelItem => item.Run.RunDesignator)</a>
+    </td
+        </tr>>*@
+            }
+            </table>
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RouteHardware)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RouteHardware)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RouteSupervision)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RouteSupervision)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RouteMonitors)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RouteMonitors)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RouteSelect)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RouteSelect)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RouteInactive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RouteInactive)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.RouteID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

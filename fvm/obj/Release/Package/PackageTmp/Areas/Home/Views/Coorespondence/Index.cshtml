@@ -1,0 +1,85 @@
+﻿@model IEnumerable<fvm.Areas.Home.Models.Coorespondence>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm("index", "Coorespondence"))
+{
+    <p>
+        Find by name: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Search">
+    </p>
+}
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Day Of Week
+        </th>
+        <th>
+            @Html.ActionLink("Date", "Index", new { sortOrder = ViewBag.coorespondencedatetime, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        <th>
+            Time
+        </th>
+        <th>            
+        </th>
+        <th>
+            @Html.ActionLink("Categories", "Index", new { sortOrder = ViewBag.coorespondencecategories, currentFilter = ViewBag.CurrentFilter })
+        </th>
+        <th>
+            From
+        </th>
+        <th>
+            Text
+            @*@Html.DisplayNameFor(model => model.CoorespondenceTextFull)*@
+        </th>
+        <th>
+            Excerpt
+            @*@Html.DisplayNameFor(model => model.CoorespondenceText)*@
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CoorespondenceDayOfWeek)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CoorespondenceDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CoorespondenceTimeHr)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CoorespondenceTimeMin)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CoorespondenceCategoryDisplay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CoorespondenceFrom)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CoorespondenceTextFull)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CoorespondenceText)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.CoorespondenceID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.CoorespondenceID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.CoorespondenceID })
+            </td>
+        </tr>
+    }
+
+</table>

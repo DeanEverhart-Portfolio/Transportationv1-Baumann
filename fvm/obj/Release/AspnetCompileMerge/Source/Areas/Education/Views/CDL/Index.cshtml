@@ -1,0 +1,81 @@
+﻿@model IEnumerable<fvm.Areas.Education.Models.CDL>
+
+@{
+    ViewBag.Title = "CDL Driver's Manual - Notes";
+}
+
+<h2>CDL Driver's Manual - Notes</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CDLCategory)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CDLCategorySub)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CDLTag)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CDLText1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CDLText2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CDLChapter)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CDLPage)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CDLSelect)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CDLInactive)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CDLCategory)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CDLCategorySub)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CDLTag)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CDLText1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CDLText2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CDLChapter)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CDLPage)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CDLSelect)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CDLInactive)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.CDLID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.CDLID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.CDLID })
+        </td>
+    </tr>
+}
+
+</table>

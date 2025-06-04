@@ -1,0 +1,117 @@
+﻿@model IEnumerable<fvm.Areas.Office.Models.Document>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DocumentDesignator)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DocumentDesignatorCategory)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DocumentDesignatorIdentifier)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DocumentForm)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DocumentTemplate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DocumentMedical)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DocumentEmergency)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DocumentAccessRead)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DocumentAccessWrite)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DocumentCategory)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DocumentCategorySub)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DocumentVersion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DocumentTag)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DocumentCrossCategory)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DocumentWrite)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DocumentDesignator)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DocumentDesignatorCategory)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DocumentDesignatorIdentifier)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DocumentForm)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DocumentTemplate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DocumentMedical)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DocumentEmergency)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DocumentAccessRead)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DocumentAccessWrite)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DocumentCategory)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DocumentCategorySub)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DocumentVersion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DocumentTag)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DocumentCrossCategory)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DocumentWrite)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.DocumentID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.DocumentID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.DocumentID })
+        </td>
+    </tr>
+}
+
+</table>

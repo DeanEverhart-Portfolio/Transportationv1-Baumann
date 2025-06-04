@@ -1,0 +1,58 @@
+﻿@model fvm.Areas.Office.Models.Sign
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Sign</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SignDesignator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SignDesignator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SignText)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SignText)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SignCategory)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SignCategory)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SignCategorySub)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SignCategorySub)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SignURLAccess)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SignURLAccess)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.SignID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

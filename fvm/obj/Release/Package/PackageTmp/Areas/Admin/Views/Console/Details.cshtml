@@ -1,0 +1,26 @@
+﻿@model fvm.Areas.Admin.Models.Admin1
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Admin1</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Admin1String)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Admin1String)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Admin1ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

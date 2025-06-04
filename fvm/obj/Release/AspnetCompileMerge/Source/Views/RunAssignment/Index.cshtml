@@ -1,0 +1,48 @@
+﻿@model IEnumerable<fvm.Models.RunAssignment>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@using (Html.BeginForm("index", "RouteAssignment"))
+{
+    <p>
+        Find by Route or Vehicle: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Search">
+    </p>
+}
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Route.RouteDesignator)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Run.RunDesignator)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Route.RouteDesignator)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Run.RunDesignator)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.RunAssignmentID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.RunAssignmentID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.RunAssignmentID })
+            </td>
+        </tr>
+    }
+
+</table>

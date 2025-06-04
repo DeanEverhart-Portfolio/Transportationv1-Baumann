@@ -1,0 +1,100 @@
+﻿@model IEnumerable<fvm.Models.RouteAssignment>
+
+@{
+    ViewBag.Title = "Route Assignment";
+}
+<div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Norhport - East Northport", "NorthportEastNorthport", "RouteAssignment")</li>
+        <li>@Html.ActionLink("South Huntington ", "SouthHuntington", "RouteAssignment")</li>
+        <li>@Html.ActionLink("Route ", "Index", "RouteAssignment")</li>
+        <li>@Html.ActionLink("Report Times ", "Report", "RouteAssignment")</li>
+        <li>@Html.ActionLink("Run", "Index", "RunAssignment")</li>
+        <li>@Html.ActionLink("Clock", "Index", "Clock")</li>
+    </ul>
+</div>
+
+<h2>Route Assignment</h2>
+
+@using (Html.BeginForm("indexaltsearch", "RouteAssignment"))
+{
+<p>
+    @Html.ActionLink("Find by", "Index", "RouteAssignment") Driver: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+    <input type="submit" value="Search">
+</p>
+}
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Status
+        </th>
+        <th>
+            Note
+        </th>
+        <th>
+            Replacement
+        </th>
+        <th>
+            Route
+        </th>
+        <th>
+            Vehicle
+        </th>
+        <th>
+            Radio
+        </th>
+        <th>
+            Employee
+        </th>
+        <th>
+            Contact
+        </th>
+        <th>
+            Text
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Equipment.EquipmentStatusDisplay)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Equipment.EquipmentNote)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.RouteAssignmentReplacement)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Route.RouteDesignator)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Equipment.EquipmentDesignatorVideo2Display)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Equipment.EquipmentRadioDisplay)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Contact.ContactNameFullDisplay)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Contact.ContactPhone1Display)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Equipment.EquipmentText)
+    </td>
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.RouteAssignmentID }) |
+        @Html.ActionLink("Details", "Details", new { id = item.RouteAssignmentID }) |
+        @Html.ActionLink("Delete", "Delete", new { id = item.RouteAssignmentID })
+    </td>
+</tr>
+    }
+
+</table>

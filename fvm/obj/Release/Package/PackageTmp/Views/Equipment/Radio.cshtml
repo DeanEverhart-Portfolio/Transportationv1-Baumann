@@ -1,0 +1,111 @@
+﻿@model IEnumerable<fvm.Models.Equipment>
+
+@{
+    ViewBag.Title = "Radio";
+}
+<div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Northport", "Northport", "Equipment")</li>
+        <li>@Html.ActionLink("Down", "Down", "Equipment")</li>
+        <li><a href="https://drive.google.com/open?id=1eT9P7g23hsLtDgJ5bzLRJL6KqL31G1XA">Empty Yard</a></li>
+        <li>@Html.ActionLink("Radio", "Radio", "Equipment")</li>
+        <li>@Html.ActionLink("All", "Menu", "Equipment")</li>
+        <li><a href="https://ring.com/account/activity">Gate Cam</a></li>
+        <li><a href="https://groundtrafficcontrol.zonarsystems.net/legacy?url=%2Fdashboard/">Zonar</a></li>
+        <li>@Html.ActionLink("Published", "DOT", "Equipment")</li>
+    </ul>
+</div>
+
+<h2>Radio</h2>
+
+@using (Html.BeginForm("down", "Equipment"))
+{
+    <p>
+        Find by name: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Search">
+    </p>
+}
+
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.EquipmentDesignatorVideo2Display)
+        </th>
+        <th>
+            Type
+            @*@Html.DisplayNameFor(model => model.EquipmentType)*@
+        </th>
+        <th>
+            Note
+            @*@Html.DisplayNameFor(model => model.EquipmentLocation)*@
+        </th>
+
+        @*<th>
+            @Html.DisplayNameFor(model => model.EquipmentPassengersAdult)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EquipmentPassengersChild)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EquipmentVideo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EquipmentBuiltIns)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EquipmentWheelChair)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EquipmentSelect)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EquipmentInactive)
+        </th>*@
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.EquipmentDesignatorVideo2Display)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.EquipmentType)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.EquipmentRadioNote)
+    </td>
+    @*<td>
+            @Html.DisplayFor(modelItem => item.EquipmentPassengersAdult)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EquipmentPassengersChild)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EquipmentVideo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EquipmentBuiltIns)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EquipmentWheelChair)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EquipmentSelect)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EquipmentInactive)
+        </td>*@
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.EquipmentID }) |
+        @Html.ActionLink("Details", "Details", new { id = item.EquipmentID }) |
+        @Html.ActionLink("Delete", "Delete", new { id = item.EquipmentID })
+    </td>
+</tr>
+    }
+
+</table>

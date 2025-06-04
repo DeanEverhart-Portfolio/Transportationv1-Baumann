@@ -1,0 +1,141 @@
+﻿@model fvm.Areas.Home.Models.Coorespondence
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>Coorespondence</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+        @Html.HiddenFor(model => model.CoorespondenceID)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CoorespondenceFrom, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CoorespondenceFrom)
+                @Html.ValidationMessageFor(model => model.CoorespondenceFrom)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CoorespondenceDate, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CoorespondenceDate)
+                @Html.ValidationMessageFor(model => model.CoorespondenceDate)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CoorespondenceTimeHr, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CoorespondenceTimeHr)
+                @Html.ValidationMessageFor(model => model.CoorespondenceTimeHr)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CoorespondenceTimeMin, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CoorespondenceTimeMin)
+                @Html.ValidationMessageFor(model => model.CoorespondenceTimeMin)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CoorespondenceTime, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CoorespondenceTime)
+                @Html.ValidationMessageFor(model => model.CoorespondenceTime)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CoorespondenceAMPM, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CoorespondenceAMPM)
+                @Html.ValidationMessageFor(model => model.CoorespondenceAMPM)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CoorespondenceDayOfWeek, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CoorespondenceDayOfWeek)
+                @Html.ValidationMessageFor(model => model.CoorespondenceDayOfWeek)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CoorespondenceCategory, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CoorespondenceCategory)
+                @Html.ValidationMessageFor(model => model.CoorespondenceCategory)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CoorespondenceCategorySub, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CoorespondenceCategorySub)
+                @Html.ValidationMessageFor(model => model.CoorespondenceCategorySub)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CoorespondenceTextFull, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CoorespondenceTextFull)
+                @Html.ValidationMessageFor(model => model.CoorespondenceTextFull)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CoorespondenceText, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CoorespondenceText)
+                @Html.ValidationMessageFor(model => model.CoorespondenceText)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CoorespondenceDescription, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CoorespondenceDescription)
+                @Html.ValidationMessageFor(model => model.CoorespondenceDescription)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CoorespondenceTag, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CoorespondenceTag)
+                @Html.ValidationMessageFor(model => model.CoorespondenceTag)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.CoorespondenceImage, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.CoorespondenceImage)
+                @Html.ValidationMessageFor(model => model.CoorespondenceImage)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

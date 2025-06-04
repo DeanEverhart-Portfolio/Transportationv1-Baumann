@@ -1,0 +1,57 @@
+﻿@model IEnumerable<fvm.Areas.Office.Models.Sign>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.SignDesignator)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SignText)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SignCategory)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SignCategorySub)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SignURLAccess)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.SignDesignator)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SignText)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SignCategory)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SignCategorySub)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SignURLAccess)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.SignID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.SignID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.SignID })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,114 @@
+﻿@model fvm.Models.Run
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Run</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Contact.ContactDesignator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Contact.ContactDesignator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Route.RouteDesignator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Route.RouteDesignator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RunDesignator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RunDesignator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RunTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RunTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RunAMPM)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RunAMPM)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RunDayOfWeek)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RunDayOfWeek)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RunDistrict)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RunDistrict)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RunHardware)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RunHardware)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RunSupervision)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RunSupervision)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RunMonitors)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RunMonitors)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RunSelect)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RunSelect)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RunInactive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RunInactive)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.RunID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

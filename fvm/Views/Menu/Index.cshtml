@@ -1,0 +1,42 @@
+﻿@model IEnumerable<fvm.Models.Menu>
+
+@{
+    ViewBag.Title = "Menu";
+}
+<div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Route", "Index", "Route")</li>
+        <li>@Html.ActionLink("Run ", "Index", "Run")</li>
+        @*<li>@Html.ActionLink("Corporate ", "Corporate", "Contact")</li>
+        <li>@Html.ActionLink("Vendor ", "Vendor", "Contact")</li>
+        <li>@Html.ActionLink("All ", "Index", "Contact")</li>*@
+    </ul>
+</div>
+
+<h2>Menu</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.MenuDesignator)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.MenuDesignator)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.MenuID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.MenuID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.MenuID })
+        </td>
+    </tr>
+}
+
+</table>

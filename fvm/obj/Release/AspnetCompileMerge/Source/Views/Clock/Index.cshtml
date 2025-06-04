@@ -1,0 +1,96 @@
+﻿@model IEnumerable<fvm.Models.Clock>
+
+@{
+    ViewBag.Title = "Route";
+}
+<div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Route ", "Index", "Clock")</li>
+        <li>@Html.ActionLink("School ", "Contact", "Clock")</li>
+        <li>@Html.ActionLink("Vehicle ", "Equipment", "Clock")</li>
+        <li>@Html.ActionLink("Time / ", "Time", "Clock")</li>
+        <li>@Html.ActionLink("Clock ", "Time", "Clock")</li>
+    </ul>
+</div>
+<h2>Clock</h2>
+@using (Html.BeginForm("index", "Clock"))
+{
+    <p>
+        Find by name: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Search">
+    </p>
+}
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Route.RouteDesignator)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Equipment.EquipmentDesignator)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Contact.ContactDesignator)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClockTimeAMPM)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Contact.ContactTimeArriveAM)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Contact.ContactTimeArrivePM)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClockRunDesignator)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClockTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ClockDayOfWeek)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Route.RouteDesignator)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Equipment.EquipmentDesignator)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contact.ContactDesignator)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClockTimeAMPM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contact.ContactTimeArriveAM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contact.ContactTimeArrivePM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClockRunDesignator)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClockTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClockDayOfWeek)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ClockID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ClockID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ClockID })
+            </td>
+        </tr>
+    }
+
+</table>

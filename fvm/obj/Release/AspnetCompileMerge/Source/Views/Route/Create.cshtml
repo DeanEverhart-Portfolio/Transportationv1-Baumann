@@ -1,0 +1,154 @@
+﻿@model fvm.Models.Route
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    <h4>Route</h4>
+    <hr />
+    @Html.ValidationSummary(true)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.RouteDesignator, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.RouteDesignator)
+            @Html.ValidationMessageFor(model => model.RouteDesignator)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.RouteDesignator2, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.RouteDesignator2)
+            @Html.ValidationMessageFor(model => model.RouteDesignator2)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.RouteDistrict, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.RouteDistrict)
+            @Html.ValidationMessageFor(model => model.RouteDistrict)
+        </div>
+    </div>
+
+    @*<div class="form-group">
+            @Html.LabelFor(model => model.ContactID, "ContactID", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("ContactID", String.Empty)
+                @Html.ValidationMessageFor(model => model.ContactID)
+            </div>
+        </div>*@
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.RouteTimeShiftAM, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.RouteTimeShiftAM)
+            @Html.ValidationMessageFor(model => model.RouteTimeShiftAM)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.RouteTimeReportAM, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.RouteTimeReportAM)
+            @Html.ValidationMessageFor(model => model.RouteTimeReportAM)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.RouteTimeArriveAM, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.RouteTimeArriveAM)
+            @Html.ValidationMessageFor(model => model.RouteTimeArriveAM)
+        </div>
+    </div>
+    ____________________________________________
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.RouteTimeShiftPM, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.RouteTimeShiftPM)
+            @Html.ValidationMessageFor(model => model.RouteTimeShiftPM)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.RouteTimeReportPM, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.RouteTimeReportPM)
+            @Html.ValidationMessageFor(model => model.RouteTimeReportPM)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.RouteTimeArrivePM, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.RouteTimeArrivePM)
+            @Html.ValidationMessageFor(model => model.RouteTimeArrivePM)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.RouteHardware, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.RouteHardware)
+            @Html.ValidationMessageFor(model => model.RouteHardware)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.RouteSupervision, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.RouteSupervision)
+            @Html.ValidationMessageFor(model => model.RouteSupervision)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.RouteMonitors, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.RouteMonitors)
+            @Html.ValidationMessageFor(model => model.RouteMonitors)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.RouteSelect, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.RouteSelect)
+            @Html.ValidationMessageFor(model => model.RouteSelect)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.RouteInactive, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.RouteInactive)
+            @Html.ValidationMessageFor(model => model.RouteInactive)
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Create" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

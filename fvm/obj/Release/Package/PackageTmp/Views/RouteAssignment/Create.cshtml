@@ -1,0 +1,81 @@
+﻿@model fvm.Models.RouteAssignment
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    <h4>RouteAssignment</h4>
+    <hr />
+    @Html.ValidationSummary(true)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.RouteAssignmentReplacementType, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.RouteAssignmentReplacementType)
+            @Html.ValidationMessageFor(model => model.RouteAssignmentReplacementType)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.RouteAssignmentReplacement, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.RouteAssignmentReplacement)
+            @Html.ValidationMessageFor(model => model.RouteAssignmentReplacement)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.RouteID, "RouteID", new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownList("RouteID", String.Empty)
+            @Html.ValidationMessageFor(model => model.RouteID)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ContactID, "ContactID", new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownList("ContactID", String.Empty)
+            @Html.ValidationMessageFor(model => model.ContactID)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EquipmentID, "EquipmentID", new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownList("EquipmentID", String.Empty)
+            @Html.ValidationMessageFor(model => model.EquipmentID)
+        </div>
+    </div>
+
+    @*<div class="form-group">
+            @Html.LabelFor(model => model.RunID, "RunID", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("RunID", String.Empty)
+                @Html.ValidationMessageFor(model => model.RunID)
+            </div>
+        </div>*@
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Create" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

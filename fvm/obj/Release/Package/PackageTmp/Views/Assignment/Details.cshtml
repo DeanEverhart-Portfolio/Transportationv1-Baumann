@@ -1,0 +1,50 @@
+﻿@model fvm.Models.Assignment
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Assignment</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Contact.ContactDesignator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Contact.ContactDesignator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Equipment.EquipmentDesignator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Equipment.EquipmentDesignator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Route.RouteDesignator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Route.RouteDesignator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Run.RunDesignator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Run.RunDesignator)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.AssignmentID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

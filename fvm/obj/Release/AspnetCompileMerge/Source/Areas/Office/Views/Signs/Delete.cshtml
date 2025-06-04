@@ -1,0 +1,64 @@
+﻿@model fvm.Areas.Office.Models.Sign
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Sign</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.SignDesignator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SignDesignator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SignText)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SignText)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SignCategory)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SignCategory)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SignCategorySub)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SignCategorySub)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SignURLAccess)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SignURLAccess)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

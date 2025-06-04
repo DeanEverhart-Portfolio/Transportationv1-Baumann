@@ -1,0 +1,77 @@
+﻿@model IEnumerable<fvm.Models.Contact>
+
+@{
+    ViewBag.Title = "Emergency";
+}
+<div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("School ", "Client", "Contact")</li>
+        <li>@Html.ActionLink("Employee ", "Employee", "Contact")</li>
+        <li>@Html.ActionLink("Corporate ", "Corporate", "Contact")</li>
+        <li>@Html.ActionLink("Vendor ", "Vendor", "Contact")</li>
+        <li>@Html.ActionLink("All ", "Index", "Contact")</li>
+        <li>@Html.ActionLink("Emergency ", "Emergency", "Contact")</li>
+    </ul>
+</div>
+
+<h2>Contact - Emergency</h2>
+
+
+@using (Html.BeginForm("corporate", "Contact"))
+{
+    <p>
+        Find by name: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Search">
+    </p>
+}
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Employee
+        </th>
+        <th>
+            Phone 1
+        </th>
+        <th></th>
+        <th>
+            Phone 2
+        </th>
+        <th>
+            Note
+        </th>
+        <th></th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.ContactNameFullDisplay)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ContactPhoneLabel1)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ContactPhone1Display)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ContactPhoneLabel2)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ContactPhone2Display)
+    </td>
+    <th>
+        @Html.DisplayFor(modelItem => item.ContactNote)
+    </th>
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.ContactID }) |
+        @Html.ActionLink("Details", "Details", new { id = item.ContactID }) |
+        @Html.ActionLink("Delete", "Delete", new { id = item.ContactID })
+    </td>
+</tr>
+}
+
+</table>

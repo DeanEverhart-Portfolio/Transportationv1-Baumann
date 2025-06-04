@@ -1,0 +1,63 @@
+﻿@model IEnumerable<fvm.Models.Equipment>
+
+@{
+    ViewBag.Title = "DOT";
+}
+@*<div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+            <li>@Html.ActionLink("Northport", "Northport", "Equipment")</li>
+            <li>@Html.ActionLink("Down", "Down", "Equipment")</li>
+            <li>@Html.ActionLink("All Locations", "Menu", "Equipment")</li>
+            <li>@Html.ActionLink("Publish", "DOT", "Equipment")</li>
+        </ul>
+    </div>*@
+
+    @section scripts
+    {
+    <script>
+                setTimeout(function () { window.location = '/Static/KeysDirectlyToVehicle.html' }, 30 * 1000);
+    </script> 
+    }
+
+<h2>DOT - Upcoming Dates</h2>
+
+@*@using (Html.BeginForm("DOT", "Equipment"))
+    {
+        <p>
+            Find by name: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+            <input type="submit" value="Search">
+        </p>
+    }
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+<table class="table">
+    <tr>
+        <th>
+            DOT
+        </th>
+        <th>
+            Vehicle
+        </th>
+        <th>
+            Vehicle Type
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EquipmentDOTDisplay2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EquipmentDesignator)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EquipmentType)
+            </td>
+        </tr>
+    }
+
+</table>

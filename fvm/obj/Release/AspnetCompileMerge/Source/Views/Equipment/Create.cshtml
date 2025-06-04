@@ -1,0 +1,209 @@
+﻿@model fvm.Models.Equipment
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    <h4>Equipment</h4>
+    <hr />
+    @Html.ValidationSummary(true)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EquipmentDesignator, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EquipmentDesignator)
+            @Html.ValidationMessageFor(model => model.EquipmentDesignator)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EquipmentDown, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EquipmentDown)
+            @Html.ValidationMessageFor(model => model.EquipmentDown)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EquipmentDOT, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EquipmentDOT)
+            @Html.ValidationMessageFor(model => model.EquipmentDOT)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EquipmentDOTDateText, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EquipmentDOTDateText)
+            @Html.ValidationMessageFor(model => model.EquipmentDOTDateText)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EquipmentDOTDate, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EquipmentDOTDate)
+            @Html.ValidationMessageFor(model => model.EquipmentDOTDate)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EquipmentReplacement, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EquipmentReplacement)
+            @Html.ValidationMessageFor(model => model.EquipmentReplacement)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EquipmentRadio, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EquipmentRadio)
+            @Html.ValidationMessageFor(model => model.EquipmentRadio)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EquipmentRadioReported, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EquipmentRadioReported)
+            @Html.ValidationMessageFor(model => model.EquipmentRadioReported)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EquipmentRadioNote, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EquipmentRadioNote)
+            @Html.ValidationMessageFor(model => model.EquipmentRadioNote)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EquipmentNote, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EquipmentNote)
+            @Html.ValidationMessageFor(model => model.EquipmentNote)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EquipmentText, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EquipmentText)
+            @Html.ValidationMessageFor(model => model.EquipmentText)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EquipmentType, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EquipmentType)
+            @Html.ValidationMessageFor(model => model.EquipmentType)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EquipmentPassengersAdult, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EquipmentPassengersAdult)
+            @Html.ValidationMessageFor(model => model.EquipmentPassengersAdult)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EquipmentPassengersChild, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EquipmentPassengersChild)
+            @Html.ValidationMessageFor(model => model.EquipmentPassengersChild)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EquipmentVideo, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EquipmentVideo)
+            @Html.ValidationMessageFor(model => model.EquipmentVideo)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EquipmentVideo2, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EquipmentVideo2)
+            @Html.ValidationMessageFor(model => model.EquipmentVideo2)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EquipmentBuiltIns, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EquipmentBuiltIns)
+            @Html.ValidationMessageFor(model => model.EquipmentBuiltIns)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EquipmentWheelChair, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EquipmentWheelChair)
+            @Html.ValidationMessageFor(model => model.EquipmentWheelChair)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EquipmentLocation, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EquipmentLocation)
+            @Html.ValidationMessageFor(model => model.EquipmentLocation)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EquipmentLocationBook, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EquipmentLocationBook)
+            @Html.ValidationMessageFor(model => model.EquipmentLocationBook)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EquipmentSelect, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EquipmentSelect)
+            @Html.ValidationMessageFor(model => model.EquipmentSelect)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.EquipmentInactive, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.EquipmentInactive)
+            @Html.ValidationMessageFor(model => model.EquipmentInactive)
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Create" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

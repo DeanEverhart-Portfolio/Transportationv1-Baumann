@@ -1,0 +1,208 @@
+﻿@model fvm.Models.Contact
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Contact</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactDesignator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactDesignator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactNameFirst)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactNameFirst)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactEmployeeID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactEmployeeID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactPhoneLabel1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactPhoneLabel1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactPhoneAreaCode1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactPhoneAreaCode1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactPhone1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactPhone1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactPhoneLabel2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactPhoneLabel2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactPhoneAreaCode2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactPhoneAreaCode2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactPhone2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactPhone2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactPhoneLabel3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactPhoneLabel3)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactPhoneAreaCode3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactPhoneAreaCode3)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactPhone3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactPhone3)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactWirelessCarrier)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactWirelessCarrier)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactAddressStreetNumber1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactAddressStreetNumber1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactAddressStreet1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactAddressStreet1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactAddressStreetType1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactAddressStreetType1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactAddressStreetNumber2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactAddressStreetNumber2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactAddressStreet2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactAddressStreet2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactAddressStreetType2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactAddressStreetType2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactAddressCityTown)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactAddressCityTown)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactAddressZipCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactAddressZipCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactAddressDirections)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactAddressDirections)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ContactAddressMap)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ContactAddressMap)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

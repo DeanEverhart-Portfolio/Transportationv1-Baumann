@@ -1,0 +1,62 @@
+﻿@model fvm.Models.Clock
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Clock</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Route.RouteDesignator)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Route.RouteDesignator)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ClockRunDesignator)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ClockRunDesignator)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Contact.ContactDesignator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Contact.ContactDesignator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Equipment.EquipmentDesignator)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Equipment.EquipmentDesignator)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ClockTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClockTime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ClockDayOfWeek)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ClockDayOfWeek)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ClockID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

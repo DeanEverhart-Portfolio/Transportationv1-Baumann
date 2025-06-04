@@ -1,0 +1,55 @@
+﻿@model IEnumerable<fvm.Models.Equipment>
+
+@{
+    ViewBag.Title = "Equipment - Locations";
+}
+    <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+            <li>@Html.ActionLink("Northport", "Northport", "Equipment")</li>
+            <li>@Html.ActionLink("Down", "Down", "Equipment")</li>
+            <li><a href="https://drive.google.com/open?id=1eT9P7g23hsLtDgJ5bzLRJL6KqL31G1XA">Empty Yard</a></li>
+            <li>@Html.ActionLink("Radio", "Radio", "Equipment")</li>
+            <li>@Html.ActionLink("All", "Menu", "Equipment")</li>
+            <li><a href="https://ring.com/account/activity">Gate Cam</a></li>
+            <li><a href="https://groundtrafficcontrol.zonarsystems.net/legacy?url=%2Fdashboard/">Zonar</a></li>
+            <li>@Html.ActionLink("Published", "DOT", "Equipment")</li>
+        </ul>
+    </div>
+
+<h2>Equipment - All</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<p>
+    _____________________________________
+</p>
+
+<div>
+    <dl class="dl-horizontal">
+
+        <li> @Html.ActionLink("All", "Index", "Equipment")</li>
+
+
+        <li> @Html.ActionLink("Inactive", "Inactive", "Equipment")</li>
+
+    </dl>
+
+    <dl class="dl-horizontal">
+        <h4>Location</h4>
+
+        <li> @Html.ActionLink("Bohemia (Commack)", "Bohemia", "Equipment")</li>
+
+        <li> @Html.ActionLink("Central Islip", "CentralIslip", "Equipment")</li>
+
+        <li> @Html.ActionLink("Copiague", "Copiague", "Equipment")</li>
+
+        <li> @Html.ActionLink("Coram (William Floyd)", "Coram", "Equipment")</li>
+
+        <li> @Html.ActionLink("Northport", "Northport", "Equipment")</li>
+
+        <li> @Html.ActionLink("Oceanside", "Oceanside", "Equipment")</li>
+
+        <li> @Html.ActionLink("All Locations", "index", "Equipment")</li>
+    </dl>
+</div>

@@ -1,0 +1,92 @@
+﻿@model fvm.Models.EquipmentHistory
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>EquipmentHistory</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.EquipmentID, "EquipmentID", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("EquipmentID", String.Empty)
+                @Html.ValidationMessageFor(model => model.EquipmentID)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ContactID, "ContactID", new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("ContactID", String.Empty)
+                @Html.ValidationMessageFor(model => model.ContactID)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.EquipmentHistoryDate, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.EquipmentHistoryDate)
+                @Html.ValidationMessageFor(model => model.EquipmentHistoryDate)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.EquipmentHistoryCategory, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.EquipmentHistoryCategory)
+                @Html.ValidationMessageFor(model => model.EquipmentHistoryCategory)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.EquipmentHistoryCategorySub, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.EquipmentHistoryCategorySub)
+                @Html.ValidationMessageFor(model => model.EquipmentHistoryCategorySub)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.EquipmentHistoryNote, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.EquipmentHistoryNote)
+                @Html.ValidationMessageFor(model => model.EquipmentHistoryNote)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.EquipmentHistorySelect, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.EquipmentHistorySelect)
+                @Html.ValidationMessageFor(model => model.EquipmentHistorySelect)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.EquipmentHistoryInactive, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.EquipmentHistoryInactive)
+                @Html.ValidationMessageFor(model => model.EquipmentHistoryInactive)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

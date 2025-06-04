@@ -1,0 +1,188 @@
+﻿@model fvm.Models.Calendar
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+<div class="form-horizontal">
+    <h4>Calendar</h4>
+    <hr />
+    @Html.ValidationSummary(true)
+    @Html.HiddenFor(model => model.CalendarID)
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.ContactID, "ContactID", new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.DropDownList("ContactID", String.Empty)
+            @Html.ValidationMessageFor(model => model.ContactID)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CalendarDateStart, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CalendarDateStart)
+            @Html.ValidationMessageFor(model => model.CalendarDateStart)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CalendarDateDayOfWeek, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CalendarDateDayOfWeek)
+            @Html.ValidationMessageFor(model => model.CalendarDateDayOfWeek)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CalendarDatePublish, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CalendarDatePublish)
+            @Html.ValidationMessageFor(model => model.CalendarDatePublish)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CalendarDateItem, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CalendarDateItem)
+            @Html.ValidationMessageFor(model => model.CalendarDateItem)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CalendarDateCategory, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CalendarDateCategory)
+            @Html.ValidationMessageFor(model => model.CalendarDateCategory)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CalendarDateTimeDismissalText, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CalendarDateTimeDismissalText)
+            @Html.ValidationMessageFor(model => model.CalendarDateTimeDismissalText)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CalendarDateEnd1, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CalendarDateEnd1)
+            @Html.ValidationMessageFor(model => model.CalendarDateEnd1)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CalendarDateEnd2, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CalendarDateEnd2)
+            @Html.ValidationMessageFor(model => model.CalendarDateEnd2)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CalendarDisplay, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CalendarDisplay)
+            @Html.ValidationMessageFor(model => model.CalendarDisplay)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CalendarDateReturn, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CalendarDateReturn)
+            @Html.ValidationMessageFor(model => model.CalendarDateReturn)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CalendarDateDayOfWeekReturn, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CalendarDateDayOfWeekReturn)
+            @Html.ValidationMessageFor(model => model.CalendarDateDayOfWeekReturn)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CalendarDateAdditionalInformation, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CalendarDateAdditionalInformation)
+            @Html.ValidationMessageFor(model => model.CalendarDateAdditionalInformation)
+        </div>
+    </div>
+    ________________________________________________________________________
+
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CalendarDateTimeDismissal, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CalendarDateTimeDismissal)
+            @Html.ValidationMessageFor(model => model.CalendarDateTimeDismissal)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CalendarDateSchoolEvent, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CalendarDateSchoolEvent)
+            @Html.ValidationMessageFor(model => model.CalendarDateSchoolEvent)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CalendarDateHoliday, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CalendarDateHoliday)
+            @Html.ValidationMessageFor(model => model.CalendarDateHoliday)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CalendarDate, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CalendarDate)
+            @Html.ValidationMessageFor(model => model.CalendarDate)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CalendarDateFirst, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CalendarDateFirst)
+            @Html.ValidationMessageFor(model => model.CalendarDateFirst)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(model => model.CalendarDateLast, new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.CalendarDateLast)
+            @Html.ValidationMessageFor(model => model.CalendarDateLast)
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Save" class="btn btn-default" />
+        </div>
+    </div>
+</div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

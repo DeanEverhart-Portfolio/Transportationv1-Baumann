@@ -1,0 +1,66 @@
+﻿@model fvm.Areas.Home.Models.Coorespondence
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Coorespondence</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CoorespondenceCategory)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CoorespondenceCategory)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CoorespondenceCategorySub)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CoorespondenceCategorySub)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CoorespondenceText)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CoorespondenceText)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CoorespondenceTextFull)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CoorespondenceTextFull)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CoorespondenceDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CoorespondenceDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CoorespondenceTime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CoorespondenceTime)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CoorespondenceID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

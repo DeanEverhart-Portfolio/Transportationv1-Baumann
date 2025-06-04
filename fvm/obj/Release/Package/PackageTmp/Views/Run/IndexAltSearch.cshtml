@@ -1,0 +1,148 @@
+﻿@model IEnumerable<fvm.Models.Run>
+
+@{
+    ViewBag.Title = "Run";
+}
+<div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("Standby ", "Standby", "Run")</li>
+        <li>@Html.ActionLink("Norhport - East Northport", "NorthportEastNorthport", "Run")</li>
+        <li>@Html.ActionLink("South Huntington ", "SouthHuntington", "Run")</li>
+
+        @*<li>@Html.ActionLink("Corporate ", "Corporate", "Contact")</li>
+        <li>@Html.ActionLink("Vendor ", "Vendor", "Contact")</li>
+        <li>@Html.ActionLink("All ", "Index", "Contact")</li>*@
+    </ul>
+</div>
+<h2>Run</h2>
+
+@using (Html.BeginForm("indexaltSearch", "Run"))
+{
+    <p>
+        @Html.ActionLink("Find by", "Index", "Run") School: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Search">
+    </p>
+}
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Route.RouteDesignator)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RunDesignator)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Contact.ContactDesignator)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Contact.ContactAddressCityTown)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Route.RouteDistrict)
+        </th>
+        @*<th>
+                @Html.DisplayNameFor(model => model.Equipment.EquipmentDesignator)
+            </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.Contact.ContactTimeArriveAM)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Contact.ContactTimeArrivePM)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RunTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RunAMPMSequenceDisplay)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RunDayOfWeek)
+        </th>
+        @*<th>
+                @Html.DisplayNameFor(model => model.RunDistrict)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RunHardware)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RunSupervision)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RunMonitors)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RunSelect)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RunInactive)
+            </th>*@
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Route.RouteDesignator)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RunDesignator)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contact.ContactDesignator)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contact.ContactAddressCityTown)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Route.RouteDistrict)
+            </td>
+            @*<td>N
+                    @Html.DisplayFor(modelItem => item.Equipment.EquipmentDesignator)
+                </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.Contact.ContactTimeArriveAM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Contact.ContactTimeArrivePM)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RunTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RunAMPMSequenceDisplay)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RunDayOfWeek)
+            </td>
+            @*<td>
+                    @Html.DisplayFor(modelItem => item.RunDistrict)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RunHardware)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RunSupervision)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RunMonitors)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RunSelect)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RunInactive)
+                </td>*@
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.RunID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.RunID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.RunID })
+            </td>
+        </tr>
+    }
+
+</table>

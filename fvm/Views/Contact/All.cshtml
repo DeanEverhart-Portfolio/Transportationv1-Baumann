@@ -1,0 +1,99 @@
+﻿@model IEnumerable<fvm.Models.Contact>
+
+@{
+    ViewBag.Title = "Contacts - All";
+}
+<div class="navbar-collapse collapse">
+    <ul class="nav navbar-nav">
+        <li>@Html.ActionLink("School ", "Client", "Contact")</li>
+        <li>@Html.ActionLink("Employee ", "Employee", "Contact")</li>
+        <li>@Html.ActionLink("Corporate ", "Corporate", "Contact")</li>
+        <li>@Html.ActionLink("Vendor ", "Vendor", "Contact")</li>
+        <li>@Html.ActionLink("All ", "Index", "Contact")</li>
+    </ul>
+</div>
+<h2>Contacts - All</h2>
+
+@using (Html.BeginForm("index", "Contact"))
+{
+    <p>
+        Find by name: @Html.TextBox("SearchString", ViewBag.CurrentFilter as string)
+        <input type="submit" value="Search">
+    </p>
+}
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Type
+        </th>
+        <th>
+            @Html.ActionLink("School", "Index", new { sortOrder = ViewBag.ContactFullNameDisplay, currentFilter = ViewBag.CurrentFilter })
+
+            @*@Html.DisplayNameFor(model => model.ContactDesignator)*@
+        </th>
+        <th>
+            @Html.ActionLink("Town", "Index", new { sortOrder = ViewBag.contactAddressCityTown, currentFilter = ViewBag.CurrentFilter })
+
+
+            @*@Html.DisplayNameFor(model => model.ContactAddressCityTown)*@
+        </th>
+        <th>
+            Phone 1
+        </th>
+        <th>
+            Phone 2
+        </th>
+        <th>
+            @Html.ActionLink("District", "Index", new { sortOrder = ViewBag.contactschooldistrict, currentFilter = ViewBag.CurrentFilter })
+
+            @*@Html.DisplayNameFor(model => model.ContactSchoolDistrict)*@
+        </th>
+
+        @*<th>
+                @Html.DisplayNameFor(model => model.ContactAddress1Display)
+            </th>*@
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactCategory)
+            </td>
+            <td>
+                <a href=@Html.DisplayFor(modelItem => item.ContactCalendar)>@Html.DisplayFor(modelItem => item.ContactNameFullDisplay)</a>
+
+                @*@Html.DisplayFor(modelItem => item.Contact.ContactDesignator)*@
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactAddressCityTown)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactPhone1Display)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContactPhone2Display)
+            </td>
+
+            <td>
+                <a href=@Html.DisplayFor(modelItem => item.ContactWebsiteDistrict)>@Html.DisplayFor(modelItem => item.ContactSchoolDistrict)</a>
+
+                @*@Html.DisplayFor(modelItem => item.ContactSchoolDistrict)*@
+            </td>
+
+            @*<td>
+                @Html.DisplayFor(modelItem => item.ContactAddress1Display)
+            </td>*@
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.ContactID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ContactID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ContactID })
+            </td>
+        </tr>
+    }
+
+</table>
